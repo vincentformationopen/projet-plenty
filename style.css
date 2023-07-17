@@ -11,3 +11,19 @@ Updated: 2023-07-11 14:57:54
 
 */
 
+/** Colonne presentation sur la page nous rencontrer*/
+.page-id-607 #content .wp-container-4 {
+    max-width: 1000px;
+}
+
+/** Header bouton commander style*/
+#masthead .ast-container, .site-header-focus-item + .ast-breadcrumbs-wrapper {
+    padding: 0;
+}
+
+
+
+
+
+
+
