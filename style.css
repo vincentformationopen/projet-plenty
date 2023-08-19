@@ -14,8 +14,19 @@ Updated: 2023-07-11 14:57:54
 /*****************  GENERAL  *********************/
 
 /** Header bouton commander style*/
+#menu-item-907{
+    display: none;
+}
+
+
 #masthead .ast-container, .site-header-focus-item + .ast-breadcrumbs-wrapper {
     padding: 0;
+}
+.ast-header-button-1[data-section*="section-hb-button-"] .ast-builder-button-wrap .ast-custom-button{
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
 }
 
 .ast-primary-header-bar {
@@ -23,14 +34,24 @@ Updated: 2023-07-11 14:57:54
     padding: 0 0 0 15px;
 }
 
-
-
+.background-home{
+  
+}
 /** Colonne presentation sur la page nous rencontrer*/
 .page-id-607 #content .wp-container-4 {
     max-width: 1000px;
 }
 
+.current-menu-item{
+    font-weight: 700;
+}
 
+.equipe-plant{
+    background: url(http://planty.local/wp-content/uploads/2023/08/Group-4.png);
+    background-repeat:no-repeat;
+    background-position: bottom right;
+    max-width: 1000px !important;
+}
 
 
 /** Input pour la commande des boissons*/
@@ -110,24 +131,103 @@ Updated: 2023-07-11 14:57:54
         line-height: 1em;
         border-radius: 10px;
         margin: auto ;
-    display: inherit;
+        display: inherit;
     }
 
 .monformulaire{
     display: flex;
-    justify-content: center;
-}
-.monformulaire div{
-    width: 50%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 50px;
 }
 
+
+
+.monformulaire label{
+    color: white;
+}
+
+.ligne-order{
+    width: 1px;
+    background-color: white;
+}
+
+.wpcf7 input:not([type=submit]), .wpcf7 select, .wpcf7 textarea
+{
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+}
 
 
 form.uagb-forms-main-form {
-    background: url(http://planty.local/wp-content/uploads/2023/07/Mask-group-21-2.png);
+    background: url(http://planty.local/wp-content/uploads/2023/08/plant-background.png);
     background-position: bottom left;
     background-repeat: no-repeat;
     /* padding: 0 50px; */
-     max-width: 600px; 
+     max-width: 700px; 
      margin: 0 auto 50px auto; 
+     padding: 0 90px;
+}
+
+
+.nous-rencontrer{
+    background: url(http://planty.local/wp-content/uploads/2023/08/Group-2.png);
+    background-repeat: no-repeat;
+    background-position: 600px 50px;
+
+}
+
+.background-canette{
+    background: url(http://planty.local/wp-content/uploads/2023/08/canette-background.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.title-command{
+    color: white !important;
+    font-weight: 600 !important;
+}
+    
+@media only screen and (max-width:976px){
+    #menu-item-907{
+        display: ;
+    }
+    .uagb-forms-main-submit-button  {
+        padding-left: 0 !important;
+        PADDING-RIGHT: 0 !important;
+        width: 100%;
+    }
+
+    /*Page commander */
+    .ligne-order {
+        display: none;
+    }
+    .monformulaire{
+        padding: 0;
+        display: inline;
+    }
+    /*****************/
+
+    /* Titre page nous rencontrer */
+    h2.title-resp {
+        font-size: 28px !important;
+        margin-top: 50px !important;
+        flex-wrap: wrap !important;
+        padding: 0 !important;
+        margin-bottom: 0 !important;
+    } 
+
+    /*****************/
+    .wp-block-uagb-container.uagb-block-6ea704a4 {
+        background: white;
+    }
+
+    /* Page home */
+    .marc-margin{
+        margin-bottom: 200px !important;
+    }
+    .wp-block-uagb-container.uagb-is-root-container.alignfull.uagb-block-75fb8596 > .uagb-container-inner-blocks-wrap {
+        flex-wrap: wrap !important;
+    }
 }
