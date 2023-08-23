@@ -14,6 +14,7 @@ Updated: 2023-07-11 14:57:54
 /*****************  GENERAL  *********************/
 
 /** Header bouton commander style*/
+
 #menu-item-907{
     display: none;
 }
@@ -34,9 +35,7 @@ Updated: 2023-07-11 14:57:54
     padding: 0 0 0 15px;
 }
 
-.background-home{
-  
-}
+
 /** Colonne presentation sur la page nous rencontrer*/
 .page-id-607 #content .wp-container-4 {
     max-width: 1000px;
@@ -53,6 +52,16 @@ Updated: 2023-07-11 14:57:54
     max-width: 1000px !important;
 }
 
+.wp-block-group.equipe-plant.is-vertical.is-content-justification-center.is-layout-flex.wp-container-5.wp-block-group-is-layout-flex::before {
+    background: url(http://planty.local/wp-content/uploads/2023/08/haut-rencontrer.png);
+    height: 301px;
+    width: 100%;
+    position: absolute;
+    content: " ";
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 /** Input pour la commande des boissons*/
 .parent {
@@ -190,9 +199,6 @@ form.uagb-forms-main-form {
 }
     
 @media only screen and (max-width:976px){
-    #menu-item-907{
-        display: ;
-    }
     .uagb-forms-main-submit-button  {
         padding-left: 0 !important;
         PADDING-RIGHT: 0 !important;
@@ -219,6 +225,7 @@ form.uagb-forms-main-form {
     } 
 
     /*****************/
+
     .wp-block-uagb-container.uagb-block-6ea704a4 {
         background: white;
     }
