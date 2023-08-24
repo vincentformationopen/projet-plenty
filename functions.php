@@ -21,6 +21,9 @@ if ( !function_exists( 'child_theme_configurator_css' ) ):
 endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
+// END ENQUEUE PARENT ACTION
+
+/* Page commander style des boutons */
 function buttonorder() {
 
     $monTexte = '<div class="parent">
@@ -35,7 +38,6 @@ function buttonorder() {
     
     add_shortcode('nomShortcode', 'buttonorder');
 
-// END ENQUEUE PARENT ACTION
 
 
 /* Admin lien */

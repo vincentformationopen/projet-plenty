@@ -13,7 +13,7 @@ Updated: 2023-07-11 14:57:54
 
 /*****************  GENERAL  *********************/
 
-/** Header bouton commander style*/
+/** Header bouton style : commander*/
 
 #menu-item-907{
     display: none;
@@ -23,6 +23,7 @@ Updated: 2023-07-11 14:57:54
 #masthead .ast-container, .site-header-focus-item + .ast-breadcrumbs-wrapper {
     padding: 0;
 }
+
 .ast-header-button-1[data-section*="section-hb-button-"] .ast-builder-button-wrap .ast-custom-button{
     padding-top: 30px;
     padding-right: 30px;
@@ -45,16 +46,18 @@ Updated: 2023-07-11 14:57:54
     font-weight: 700;
 }
 
+/** Input pour la commande des boissons*/
 .equipe-plant{
     background: url(http://planty.local/wp-content/uploads/2023/08/Group-4.png);
     background-repeat:no-repeat;
     background-position: bottom right;
     max-width: 1000px !important;
+    padding-top: 100px;
 }
-
+/** Arrondi beige entre nous rencontrer et l'équipe
 .wp-block-group.equipe-plant.is-vertical.is-content-justification-center.is-layout-flex.wp-container-5.wp-block-group-is-layout-flex::before {
     background: url(http://planty.local/wp-content/uploads/2023/08/haut-rencontrer.png);
-    height: 301px;
+    height: 100%;
     width: 100%;
     position: absolute;
     content: " ";
@@ -150,8 +153,6 @@ Updated: 2023-07-11 14:57:54
     padding: 0 50px;
 }
 
-
-
 .monformulaire label{
     color: white;
 }
@@ -168,7 +169,7 @@ Updated: 2023-07-11 14:57:54
     width: 100%;
 }
 
-
+/** Plante en bas a gauche du formulaire Nous contacter*/
 form.uagb-forms-main-form {
     background: url(http://planty.local/wp-content/uploads/2023/08/plant-background.png);
     background-position: bottom left;
@@ -179,20 +180,19 @@ form.uagb-forms-main-form {
      padding: 0 90px;
 }
 
-
+/** Plante sur la div Nous rencontrer */
 .nous-rencontrer{
     background: url(http://planty.local/wp-content/uploads/2023/08/Group-2.png);
     background-repeat: no-repeat;
     background-position: 600px 50px;
-
 }
-
+/** Background des canettes en fin de page */
 .background-canette{
     background: url(http://planty.local/wp-content/uploads/2023/08/canette-background.png);
     background-repeat: repeat-x;
     background-position: bottom;
 }
-
+/** Titres sur la page commander du formulaire */
 .title-command{
     color: white !important;
     font-weight: 600 !important;
