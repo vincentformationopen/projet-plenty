@@ -54,16 +54,9 @@ Updated: 2023-07-11 14:57:54
     max-width: 1000px !important;
     padding-top: 100px;
 }
-/** Arrondi beige entre nous rencontrer et l'équipe
-.wp-block-group.equipe-plant.is-vertical.is-content-justification-center.is-layout-flex.wp-container-5.wp-block-group-is-layout-flex::before {
-    background: url(http://planty.local/wp-content/uploads/2023/08/haut-rencontrer.png);
-    height: 100%;
+/** Arrondi beige entre nous rencontrer et l'équipe*/
+.arrondi img {
     width: 100%;
-    position: absolute;
-    content: " ";
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 /** Input pour la commande des boissons*/
@@ -123,10 +116,6 @@ Updated: 2023-07-11 14:57:54
         margin-left: 23px;
         border-radius: 10px;
     }
-
-
-
-
 
 
 /** Bouton commander formulaire */
@@ -197,7 +186,7 @@ form.uagb-forms-main-form {
     color: white !important;
     font-weight: 600 !important;
 }
-    
+
 @media only screen and (max-width:976px){
     .uagb-forms-main-submit-button  {
         padding-left: 0 !important;
@@ -237,4 +226,9 @@ form.uagb-forms-main-form {
     .wp-block-uagb-container.uagb-is-root-container.alignfull.uagb-block-75fb8596 > .uagb-container-inner-blocks-wrap {
         flex-wrap: wrap !important;
     }
+
+    .para-rencontrer{
+        margin-bottom: 50px !important;
+    }
 }
+
